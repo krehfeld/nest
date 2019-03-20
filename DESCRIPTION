@@ -1,0 +1,11 @@
+Package: nest
+Type: Package
+Title: Non-equally spaced time series analysis
+Version: 1.05.44
+Date: 2017-09-07
+Author: Kira Rehfeld
+Maintainer: Kira Rehfeld <krehfeld@iup.uni-heidelberg.de>
+Description: Irregular time series analysis: Correlation and Spectra
+License: GPL-2
+Depends: zoo, PaleoSpec
+Imports: scales, multitaper,maps, mapdata

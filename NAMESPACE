@@ -1,0 +1,20 @@
+export(ar1sur,car,gausssmooth,generate_ar1,generate_ar1sins,generate_powlaw,generate_t,ixcf,medsmoo,nexcf,tauest,nexcf_ci,tsc_dep_var,network_stats,network_links,networkmap_simple,window_by_time,effective_ts_length,gaussbandpass,gaussdetr,var_ci,varrat_ci,degclust,get_reversib,quality_check,get_var_rat)
+
+## do not export: sim.powerlaw,gaussfun, psdLS
+
+import(zoo)
+import(maps)
+import(mapdata)
+import(PaleoSpec)
+importFrom("scales",rescale)
+importFrom("multitaper",spec.mtm)
+#importFrom("redfit",redfit)
+#importFrom("zoo",zoo)
+#importFrom("zoo",index)
+#importFrom("zoo",coredata)
+#importFrom("zoo",is.zoo)
+#importFrom("zoo",is.regular)
+
+
+
+
