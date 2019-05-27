@@ -2,7 +2,7 @@
 NEST is a R package to analyze Non-Equally Spaced Timeseries
 
 License
-* private * in the STACY group & collaborators (plan to publish officially... eventually)
+Private within the STACY group and collaborators (no warranty).
 
 Installation
 
