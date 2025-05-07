@@ -121,7 +121,7 @@ if ((T1-T0)/dtlag<=10) { warning("nexcf: time series don't overlap sufficiently,
 
 ## Check if autocorrelation should be computed
 
-if ((length(tx)==length(ty))&&all(tx==ty)&&(x==y)) {is.acf=TRUE} else {is.acf=FALSE}
+if ((length(tx)==length(ty))&&all(tx==ty)&&all(x==y)) {is.acf=TRUE} else {is.acf=FALSE}
 # find lag zero
 
 ### preprocessing: 
